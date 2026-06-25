@@ -1,0 +1,32 @@
+Core Endpoints
+Authentication
+
+POST /api/auth/signup - Create new account
+POST /api/auth/login - User login
+POST /api/auth/logout - User logout
+POST /api/auth/refresh-token - Refresh JWT
+Caregivers
+
+GET /api/caregivers - List caregivers with filters
+GET /api/caregivers/:id - Get caregiver profile
+PUT /api/caregivers/:id - Update caregiver profile
+GET /api/caregivers/:id/availability - Get availability
+PUT /api/caregivers/:id/availability - Update availability
+Bookings
+
+POST /api/bookings - Create booking
+GET /api/bookings - Get user bookings
+GET /api/bookings/:id - Get booking details
+PUT /api/bookings/:id - Update booking
+DELETE /api/bookings/:id - Cancel booking
+POST /api/bookings/:id/confirm - Confirm booking
+Messages
+
+POST /api/messages - Send message
+GET /api/messages/conversations - Get conversations
+GET /api/messages/:conversationId - Get messages
+Payments
+
+POST /api/payments/intent - Create payment intent
+POST /api/payments/confirm - Confirm payment
+GET /api/payments/history - Payment history
