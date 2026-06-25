@@ -1,0 +1,15 @@
+{
+  "_id": "ObjectId",
+  "email": "user@example.com",
+  "password": "hashed",
+  "userType": "seeker|caregiver",
+  "profile": {
+    "firstName": "",
+    "lastName": "",
+    "phone": "",
+    "avatar": "",
+    "address": {}
+  },
+  "verified": false,
+  "createdAt": "timestamp"
+}
