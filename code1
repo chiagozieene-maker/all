@@ -1,0 +1,21 @@
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 16+
+- MongoDB 4.4+
+- npm or yarn
+- Git
+
+### Frontend Installation
+
+```bash
+cd frontend
+npm install
+cp .env.example .env.local
+
+# Development
+npm start
+
+# Production
+npm run build
+npm run serve
