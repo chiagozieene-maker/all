@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "data": {
+    "userId": "user_id",
+    "token": "jwt_token",
+    "refreshToken": "refresh_token"
+  }
