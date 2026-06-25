@@ -1,0 +1,14 @@
+{
+  "_id": "ObjectId",
+  "seekerId": "ObjectId",
+  "caregiverId": "ObjectId",
+  "serviceType": "elderly-care",
+  "status": "confirmed|pending|completed|cancelled",
+  "startTime": "timestamp",
+  "endTime": "timestamp",
+  "location": {},
+  "totalCost": 39.60,
+  "paymentStatus": "paid|pending",
+  "notes": "",
+  "review": {}
+}
