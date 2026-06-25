@@ -1,0 +1,8 @@
+{
+  "email": "user@example.com",
+  "password": "password123",
+  "firstName": "John",
+  "lastName": "Doe",
+  "phone": "+44 7900 000000",
+  "userType": "seeker" | "caregiver"
+}
