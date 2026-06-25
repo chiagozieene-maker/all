@@ -1,0 +1,10 @@
+cd backend
+npm install
+cp .env.example .env
+
+# Development
+npm run dev
+
+# Production
+npm run build
+npm start
