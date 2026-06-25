@@ -1,0 +1,18 @@
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 16+
+- MongoDB 4.4+
+- npm or yarn
+
+### Standalone Demo (Instant)
+Simply open `index.html` in any web browser. No installation needed!
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+cp .env.example .env
+# Edit .env with your configuration
+npm run dev
